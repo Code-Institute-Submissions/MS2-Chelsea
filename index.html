@@ -13,27 +13,35 @@
 <body>
     <header>
         <div class = "nav-bar row no-gutters">
-        <ul class = "nav list-inline">
-            <li><a class = "col-12 col-sm-2 list-inline-item" href="index.html">Home</a></li>
-            <li><a class = "col-12 col-sm-2 list-inline-item" href="#">Photos</a></li>
-            <li><a class = "col-12 col-sm-2 list-inline-item" href="#">Travel</a></li>
+        <ul class = "nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Travel</a></li>
         </ul>
         
         <div class="theme-container">
-        <h2>Theme:</h2>
+        <h3>Theme:</h3>
         <div class="theme-box-group">
-        <div class = "theme-box"></div>
-        <div class = "theme-box"></div>
-        <div class = "theme-box"></div>
-        <div class = "theme-box"></div>
-        </div>
-        </div>
+        <div class = "theme-box" id="pink"></div>
+        <div class = "theme-box" id="blue"></div>
+        <div class = "theme-box" id="yellow"></div>
+        <div class = "theme-box" id="green"></div>
+            </div>
+          </div>
         </div>
     </header>
-    <section></section>
+    <section>
+        <div id="thoughts">
+        <h2>Write Something!</h2>
+        <button class="new-entry">New Entry</button>  
+        <textarea name="blog-entry" id="blog-entry" placeholder="You can write about anything!" cols="30" rows="10" required></textarea>
+        <div id="posts"></div>
+        </div>
+    </section>
     <footer>
         
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/thoughts.js"></script>
 </body>
 </html>

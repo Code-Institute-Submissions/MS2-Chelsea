@@ -5,6 +5,13 @@ body {
     margin: 0;
 }
 
+section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 
 /* -------------- header */
 
@@ -34,7 +41,7 @@ ul {
     color: black;
 }
 
-h2 {
+h3 {
     position: relative;
     top: 10px;
     text-align: center;
@@ -52,12 +59,55 @@ h2 {
     margin: 0 10px 0 10px;
 }
 
+#pink {
+    background-color: rgb(223, 53, 186);
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
 .theme-container {
     position: relative;
 }
 
 .theme-box-group {
     text-align: center;
+}
+
+/*-------------------------- Thoughts */
+
+#thoughts {
+    position: relative;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+button {
+    padding: 10px;
+    border-width: thick;
+    border-style: double;
+    border-color: black;
+
+    font-size: 1em;
+    font-weight: 600;
+
+    width: 150px;
+}
+
+#blog-entry {
+    width: 90%;
+    margin-top: 20px;
 }
 
 
