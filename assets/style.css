@@ -12,6 +12,14 @@ section {
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
 
 /* -------------- header */
 
@@ -23,10 +31,6 @@ section {
 
 .nav {
     margin: 0;
-}
-
-ul {
-    display: inline-block;
 }
 
 .nav li {
@@ -86,10 +90,11 @@ h3 {
 /*-------------------------- Thoughts */
 
 h2 {
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .new-entry {
+    margin-top: 75px;
     padding: 10px;
     border-width: thick;
     border-style: double;
@@ -107,6 +112,38 @@ h2 {
 }
 
 
+/*-------------------------- Footer */
+
+.socials-container {
+    min-height: 120px;
+    background-color: #707070;
+    margin: 0;
+    width: 100%;
+    position:relative;
+}
+
+.social-links {
+    list-style-type: none;
+}
+
+.social-links i {
+    color: black;
+    font-size: x-large;
+
+    margin-right: 15px;
+}
+
+.social-links li {
+    display: inline;
+
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    display: inline-block;
+    margin-top: 40px;
+}
 
 /*-------------------------- Media Queries */
 
