@@ -54,6 +54,10 @@ footer {
     color: black;
 }
 
+a:hover {
+    color: white;
+}
+
 h3 {
     position: relative;
     top: 10px;
