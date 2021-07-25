@@ -103,21 +103,26 @@ h2 {
 }
 
 .new-entry {
-    margin-top: 75px;
-    padding: 10px;
+    margin: 75px 0 250px 0;;
+    padding: 30px;
     border-width: thick;
     border-style: double;
     border-color: black;
 
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 600;
 
-    width: 150px;
+    width: 300px;
 }
 
 #blog-entry {
     width: 90%;
     margin: 20px 0 170px 0;
+}
+
+.thought-container {
+    margin-bottom: 30px;
+    font-size: x-large;
 }
 
 /*-------------------------- Places */
@@ -237,13 +242,6 @@ ul {
   .active, .dot:hover {
     background-color: #717171;
   }
-  
-
-/*-------------------------- Media Queries */
-
-@media only screen and (max-width: 768px) {
- 
-}
 
 /*-------------------------- Animation */
 
